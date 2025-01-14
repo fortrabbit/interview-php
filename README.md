@@ -23,9 +23,9 @@ Build a simple REST API from scratch using Symfony and Doctrine ORM, using a pre
 
 The API should have five methods.
 
-- Add app with arguments
+- Add `app` with arguments:
     - name
-- Add environment with arguments
+- Add `environment` with arguments:
     - name
     - phpVersion
     - appPublicId - which app this environment belongs to
