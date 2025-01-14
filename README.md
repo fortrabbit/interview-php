@@ -29,9 +29,9 @@ The API should have five methods.
     - name
     - phpVersion
     - appPublicId - which app this environment belongs to
-- Delete environment
-- Delete app (should also delete linked environments)
-- List apps and environments in hierarchical array
+- Delete `environment`
+- Delete `app` (should also delete linked environments)
+- List all `apps` and `environments` in a single hierarchical array
 
 ## Commands
 Create a Symfony CLI command to seed the database with a few randomized objects
